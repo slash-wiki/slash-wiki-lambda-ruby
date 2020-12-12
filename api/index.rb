@@ -1,4 +1,4 @@
-require 'cgi'
+require 'uri'
 
 Handler = Proc.new do |request, response|
     response.status = 200
